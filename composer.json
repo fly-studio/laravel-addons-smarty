@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Addons\\Smarty\\ServiceProvider::class,"
+                "Addons\\Smarty\\ServiceProvider"
             ],
             "aliases": {
             }
