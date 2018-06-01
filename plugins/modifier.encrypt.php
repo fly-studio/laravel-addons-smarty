@@ -8,5 +8,5 @@
  */
 function smarty_modifier_encrypt($string, $mode = 'encode')
 {
-	return strtolower($mode) == 'encode' ? Crypt::encrypt($string) : Crypt::decrypt($string);
+	return strtolower($mode) == 'encode' ? encrypt($string) : decrypt($string);
 }
