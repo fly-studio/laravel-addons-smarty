@@ -1,8 +1,8 @@
 {
     "name": "addons/smarty",
-    "description": "This package lets you run Smarty3 on Laravel elegantly.",
+    "description": "This package lets you run Smarty4 on Laravel elegantly.",
     "homepage": "https://www.load-page.com/",
-    "keywords": ["Laravel", "Smarty", "Smarty 3", "View", "Templating"],
+    "keywords": ["Laravel", "Smarty", "Smarty 4", "View", "Templating"],
     "license": "MIT",
     "support": {
         "issues": "https://github.com/fly-studio/laravel-addons-smarty/issues",
@@ -15,11 +15,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": ">=5.0",
-        "illuminate/cache": ">=5.0",
-        "illuminate/config": ">=5.0",
-        "smarty/smarty": "3.*@stable"
+        "php": ">=7.4.0",
+        "illuminate/support": ">=8.0",
+        "illuminate/cache": ">=8.0",
+        "illuminate/config": ">=8.0",
+        "smarty/smarty": "4.*@stable"
     },
     "autoload": {
         "psr-4": {
