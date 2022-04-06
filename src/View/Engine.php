@@ -40,6 +40,9 @@ class Engine implements EngineInterface
 		$smarty->right_delimiter = $config['right_delimiter'] ?: '}';
 
 		$smarty->error_reporting = error_reporting() & ~E_NOTICE;
+
+		if ($config['ignore_undefined_null'])
+			$smarty->muteUndefinedOrNullWarnings();
 	}
 
 	/**

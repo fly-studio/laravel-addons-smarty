@@ -23,6 +23,10 @@ return [
 	// use different delimiters throughout your templates if you really want to!
 	'left_delimiter'  =>  '<{',
 	'right_delimiter' =>  '}>',
+	
+	// ignore warning of undefined array index or null
+	// https://github.com/smarty-php/smarty/issues/617
+	'ignore_undefined_null' => true,
 
 
 	// 当系统缓存驱动不为“file”时有效。
